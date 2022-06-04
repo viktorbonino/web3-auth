@@ -26,7 +26,7 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div className="flex flex-col px-12 py-8 gap-8 items-center">
+    <div className="flex flex-col px-16 py-8 gap-8 items-center">
       <h1 className="font-extrabold text-center text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700">
         Eidoo Code Assignment
       </h1>
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
       }
 
       {loggedIn &&
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 items-center">
           <span className="font-extrabold text-center text-transparent text-lg bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700 md:text-3xl">
             Welcome, {account}.
           </span>
