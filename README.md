@@ -2,7 +2,7 @@ This is a repo for Eidoo Wallet code assignment.
 
 ## Technologies used
 - React
-- Next.js (for both frontend and backend)
+- Next.js (used for backend too)
 - Typescript
 - TailwindCSS
 - ethers
