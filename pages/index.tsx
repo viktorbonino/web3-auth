@@ -72,10 +72,10 @@ const Home: NextPage = () => {
 
       {loggedIn &&
         <div className="flex flex-col gap-8">
-          <span className="font-extrabold text-center text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700">
+          <span className="font-extrabold text-center text-transparent text-lg bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700 md:text-3xl">
             Welcome, {account}.
           </span>
-          <span className="font-extrabold text-center text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700">
+          <span className="font-extrabold text-center text-transparent text-xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700 md:text-3xl">
             Your ETH balance is {balance}
           </span>
           <button
