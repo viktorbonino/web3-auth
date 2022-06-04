@@ -26,8 +26,12 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div className="flex flex-col px-16 py-8 gap-8 justify-center">
-      <h1 className="font-extrabold text-center text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700">
+    <div 
+      className="flex flex-col px-16 py-8 gap-8 justify-center"
+    >
+      <h1 
+        className="font-extrabold text-center text-transparent text-4xl bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500"
+      >
         Eidoo Code Assignment
       </h1>
 
@@ -72,10 +76,14 @@ const Home: NextPage = () => {
 
       {loggedIn &&
         <div className="flex flex-col gap-8 items-center">
-          <span className="p-4 rounded-xl font-extrabold text-center text-white text-xs bg-gradient-to-r from-purple-700 to-orange-700 md:text-3xl">
+          <span 
+            className="p-4 rounded-xl font-extrabold text-center text-white text-xs bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 md:text-3xl"
+          >
             {account}
           </span>
-          <span className="font-extrabold text-center break-normal text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-700 to-orange-700 md:text-3xl">
+          <span 
+            className="font-extrabold text-center break-normal text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 md:text-3xl"
+          >
             Your ETH balance is {balance}
           </span>
           <button
